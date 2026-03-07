@@ -1,0 +1,50 @@
+.music-widget {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff6b81;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    width: 140px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.music-widget:hover { background-color: #ff4757; }
+.music-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+.music-controls button {
+    background-color: #fff;
+    color: #ff6b81;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.music-controls button:hover { background-color: #ffe3e6; }
+.music-widget.active .music-controls { opacity: 1; max-height: 200px; }
+
+/* Контент страниц */
+#content {
+    padding: 50px 20px 20px 20px;
+}
+
+/* Навигация */
+.nav-link {
+    background-color: #ff6b81;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.nav-link:hover { background-color: #ff4757; }

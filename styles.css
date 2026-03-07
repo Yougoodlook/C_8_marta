@@ -1,0 +1,72 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black; /* Черный фон как на фото */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        .highlight {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 32px;
+            color: #ffc1e6;
+            text-shadow: 0 0 15px rgba(255, 193, 230, 0.8);
+            z-index: 10;
+        }
+
+        #heartCanvas {
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* Центрированная кнопка */
+        .center-container {
+            position: absolute;
+            top: 50%;
+            left: 53.5%;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            text-align: center;
+        }
+
+        .btn-main {
+            width: 100px;
+            height: 100px;
+            background-color: #d16b91; /* Насыщенный розовый */
+            color: #fff;
+            text-decoration: none;
+            border: 4px solid #ffc1e6;
+            border-radius: 50%; /* Круглая форма */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(209, 107, 145, 0.6);
+            transition: all 0.3s ease;
+            animation: heartBeat 1.5s infinite ease-in-out;
+        }
+
+        .btn-main:hover {
+            transform: scale(1.1);
+            background-color: #e07da3;
+            box-shadow: 0 0 50px rgba(255, 193, 230, 0.9);
+        }
+
+        @keyframes heartBeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+            100% { transform: scale(1); }
+        }
+
+        .sparkle { font-size: 20px; margin-top: 5px; }
