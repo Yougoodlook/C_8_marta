@@ -2,7 +2,7 @@ const songs = [
     'music/song1.mp3',
     'music/song2.mp3',
     'music/song3.mp3',
-    'music/song4.mp3',
+    'music/song4.mp3'
 ];
 
 // Получаем индекс песни и состояние из localStorage или задаем по умолчанию
