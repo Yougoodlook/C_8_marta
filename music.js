@@ -7,6 +7,17 @@ const songs = [
     'music/song6.mp3',
     'music/song7.mp3',
     'music/song8.mp3',
+    'music/Byuro_-_Treshhiny_74698913.mp3',
+    'music/Byuro_-_Vse_eshhe_lyudi_80304268.mp3',
+    'music/EMIN_JONY_-_Kamin_68951744.mp3',
+    'music/Gio_Pika_MIRAVI_-_Mir_2024_77903135.mp3',
+    'music/Miyagi_Amigo_-_Samaya_47829535.mp3',
+    'music/NYU_-_Ne_ubivajj_68462521.mp3',
+    'music/Sunshine.mp3',
+    'music/Xcho_-_JEskizy_73418778.mp3',
+    'music/ZHenya_Trofimov_-_Samolety_78089953.mp3',
+    'music/gera_amen_-_SOLNCE_VSTALO_77973306.mp3',
+    'music/miyagi-amp-jendshpil-feat.-rem-digga-i-got-love.mp3',
 ];
 
 // Получаем индекс песни из localStorage
