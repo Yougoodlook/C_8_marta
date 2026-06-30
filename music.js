@@ -18,6 +18,16 @@ const songs = [
     'music/ZHenya_Trofimov_-_Samolety_78089953.mp3',
     'music/gera_amen_-_SOLNCE_VSTALO_77973306.mp3',
     'music/miyagi-amp-jendshpil-feat.-rem-digga-i-got-love.mp3',
+    'music/Darya_Viardo_-_Bog_v_menya_verit_75803797.mp3',
+    'music/Jah Khalib - Ты словно целая вселенная.mp3',
+    'music/JElli_na_makovom_pole_-_tolko_lyubov_78724567.mp3',
+    'music/M_A_L_A_I_-_Molodojj_80426713.mp3',
+    'music/Mirle_Bond_s_knopkojj_-_Cvety_79339518.mp3',
+    'music/MONA_-_Dorozhe_zolota_79391901.mp3',
+    'music/Settlers_-_Svetloe_chuvstvo_81049556.mp3',
+    'music/Shami_-_Molchanie_Polnaya_Versiya_76937226.mp3',
+    'music/Xcho_DanRi_-_Veter_80548516.mp3',
+    'music/Xcho_MOT_-_Ballada_77718314.mp3',
 ];
 
 // Получаем индекс песни из localStorage
